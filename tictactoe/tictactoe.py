@@ -99,7 +99,7 @@ def playerx():
         os.system(cs)
         tictactoe_main()
 
-    while ActivePlayer is False:
+    while not ActivePlayer:
         playery()
 
     
@@ -173,7 +173,7 @@ def playery():
         os.system(cs)
         tictactoe_main()
 
-    while ActivePlayer is False:
+    while not ActivePlayer:
         playerx()
 
 
